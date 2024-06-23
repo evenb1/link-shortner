@@ -24,5 +24,35 @@
   width:60%;
   height: 40px;
   border: 0.5px solid rgb(112, 112, 112);
+  padding: 5px 20px;
+  font-size: larger;
 
+}
+.input-div .description{
+  max-width: 52%;
+  margin-top: 20px;
+  font-size:x-small;
+}
+div .parent-div{
+border:1px solid black;
+
+}
+.parent-div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #fff; /* Example color for the logo */
 }
