@@ -6,7 +6,6 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-  <div className='parent-div'>
     <div className='input-div'>
         
       <h1>Create Short URLs</h1>
@@ -16,7 +15,6 @@ function App() {
       URL shortener allows to create a shortened link making it easy to share</h3>
       </div>
       </div>
-    </div>
   )
 }
 
