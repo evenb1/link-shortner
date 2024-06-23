@@ -1,12 +1,17 @@
-import './App.css';
+import { useState } from 'react'
+import './App.css'
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div>
+  
+    <div className='input-div'>
+        
       <h1>Create Short URLs</h1>
-      <input type='text'></input>
+      <input className='link-input' type='text'></input>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
