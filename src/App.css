@@ -1,10 +1,14 @@
 #root {
-  max-width: 1280px;
-  margin: auto;
+  margin: 0 ;
+  height: 100vh; /* Full viewport height */
+
   padding: 2rem;
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+*{
+  margin: 0;
 }
 .input-div {
   color: #242424;
@@ -38,9 +42,8 @@ border:1px solid black;
 
 }
 .parent-div {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  height: 100%; /* Full height of parent (#root) */
+  width: 100%; /* Full width of parent (#root) */
 }
 
 .navbar {
