@@ -13,7 +13,7 @@ function App() {
       <input className='link-input' type='text' placeholder='Paste Link Here'></input>
       <Button />
       </div>
-        <div className='description'> 
+      <div className='description'> 
       <h3>Link House is a free tool to shorten URLs and generate short links
       URL shortener allows to create a shortened link making it easy to share</h3>
       </div>
