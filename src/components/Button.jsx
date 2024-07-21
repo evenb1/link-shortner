@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './Button.module.css';
 
-function Button() {
+const Button = ({ onClick }) =>  {
   return (
-    <div><button><span>Shorten URL</span></button>
+    <div><button onClick={onClick}><span>Shorten URL</span></button>
 </div>
   )
 }
 
 export default Button
+
