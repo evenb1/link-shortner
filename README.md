@@ -1,8 +1,16 @@
-# React + Vite
+Link Shortener
+Link Shortener is a simple web application that allows users to create shortened URLs using the Bitly API. This project demonstrates the integration of a third-party API with a React frontend and showcases the deployment process on Vercel.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+URL Shortening: Input a long URL and get a shortened version using the Bitly API.
+Copy to Clipboard: Easily copy the shortened URL to your clipboard.
+Clear Input: Clear the input fields for a new URL shortening request.
+Responsive Design: User-friendly interface optimized for both desktop and mobile devices.
+Tech Stack
+Frontend: React, Vite
+Styling: CSS Modules
+API: Bitly API
+Deployment: Vercel
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this project click this link:
+https://link-shortner-axdy.vercel.app/
