@@ -1,6 +1,6 @@
-# Link Shortener
+# Link House
 
-Link Shortener is a simple web application that allows users to create shortened URLs using the Bitly API. This project demonstrates the integration of a third-party API with a React frontend and showcases the deployment process on Vercel.
+Link House is a simple web application that allows users to create shortened URLs using the Bitly API. This project demonstrates the integration of a third-party API with a React frontend and showcases the deployment process on Vercel.
 
 ## Features
 **URL Shortening:** Input a long URL and get a shortened version using the Bitly API.
